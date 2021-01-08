@@ -16,8 +16,7 @@ class About extends Component{
             const {navigate} = this.props.navigation;
                 return (
                         
-                          <ListItem bottomDivider
-                          onPress={() => navigate('Dishdetail',{ dishId: item.id })}>
+                          <ListItem bottomDivider>
                             <Avatar rounded source={ require('./images/alberto.png')} />
                             <ListItem.Content>
                             <ListItem.Title>{item.name}</ListItem.Title>

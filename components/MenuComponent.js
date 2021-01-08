@@ -17,6 +17,7 @@ class Menu extends Component {
     render(){
         const renderMenuItem = ({item, index}) => {
             const {navigate} = this.props.navigation;
+            console.log(navigate);
                 return (
                         
                           <ListItem bottomDivider
